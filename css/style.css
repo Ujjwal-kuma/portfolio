@@ -1,0 +1,153 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  overflow-x: hidden;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+header {
+  background-color: red;
+  color:white;
+  text-align: center;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+header h1 {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+#about {
+  margin-bottom: 40px;
+}
+
+#about h2{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3rem;
+}
+
+.about-content{
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content:space-between;
+  align-items: center;
+  gap: 10px;
+
+}
+.about-content img{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+.about-content div{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  padding: 20px 20px;
+  width: 50%;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section ul li a {
+  font-weight: bold;
+}
+
+section ul li p {
+  margin: 0;
+}
+#projects{
+  width: 100%;
+}
+
+#projects h2{
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.project-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.project-items li{
+  border: 1px solid black;
+  border-radius: 5px;
+  min-height: 100px;
+}
+.project-items li{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+.project-items a{
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.project-items a img{
+  width: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.project-items a h1{
+  color: black;
+  text-align: center;
+  margin:20px 0 ;
+}
+
+section#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+section#contact label {
+  margin-bottom: 5px;
+}
+
+section#contact input,
+section#contact textarea {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+section#contact button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
